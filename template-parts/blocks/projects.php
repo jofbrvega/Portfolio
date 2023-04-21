@@ -18,7 +18,8 @@ $project_heading = get_field('project_heading');
                 $project_link_target = $project_link['target'] ? $project_link['target'] : '_self';
             endif;
     ?>
-            <?php if ($project_align == 'left_align') : ?>
+    
+            <?php if ($project_align == 'left_align') : ?> <!-- Connected to a button group in acf  -->
                         <div class="grid grid-cols-2 py-5">
                             <div>
                                 <?php if ($project_image) : ?>

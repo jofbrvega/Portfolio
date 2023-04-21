@@ -12,8 +12,6 @@
 
 <body <?php body_class('bg-gray-50 text-gray-900 antialiased'); ?>>
 
-	<?php do_action('tailpress_site_before'); ?>
-
 	<header>
 		<?php get_template_part('/template-parts/global/global', 'header'); ?>
 	</header>

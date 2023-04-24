@@ -13,3 +13,6 @@ Page built with Wordpress, PHP, AlpineJS and TailwindCSS.
 * Wordpress version - 6.2
 * Use Laravel Valet to run site locally https://laravel.com/docs/9.x/valet
 * Use Tailwind as CSS - in this project I used Tailpress that is a minimal boilerplate theme https://github.com/jeffreyvr/tailpress
+
+## Figma 
+See the design [here] (https://www.figma.com/file/aod7dPlKDMS1AlT842m1sX/Portfolio?node-id=1%3A6&t=eE0XAEx3XzpELwoQ-1) 

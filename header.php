@@ -11,9 +11,9 @@
 </head>
 
 <body <?php body_class('bg-gray-50 text-gray-900 antialiased'); ?>>
-
+	<?php if ( is_front_page() ) : ?>
 	<header>
 		<?php get_template_part('/template-parts/global/global', 'header'); ?>
 	</header>
-
+	<?php endif; ?>
 	<main>

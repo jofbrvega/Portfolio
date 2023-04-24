@@ -2,9 +2,9 @@
 $footer_title = get_field('footer_title', 'options');
 $footer_link = get_field('footer_link', 'options');
 ?>
-<section class="m-10">
-    <div class="flex gap-32 m-4">
-        <h2 class="text-7xl"> <?= $footer_title; ?></h2>
+<section class="lg:m-10">
+    <div class="flex flex-col m-4 lg:flex-row lg:gap-32">
+        <h2 class="py-4 text-3xl lg:py-0 lg:text-7xl"> <?= $footer_title; ?></h2>
         <div class="w-full border-t-2">
             <ul class="flex gap-20">
                 <?php
@@ -18,7 +18,7 @@ $footer_link = get_field('footer_link', 'options');
                         endif;
                 ?>
                         <li>
-                                <a href="<?php echo esc_url($footer_link_links_url); ?>" target="_blank" <?php echo esc_attr($footer_link_links_target); ?>" class="pt-4 text-2xl font-fontin-regular hover:opacity-80">
+                                <a href="<?php echo esc_url($footer_link_links_url); ?>" target="_blank" <?php echo esc_attr($footer_link_links_target); ?>" class="pt-4 lg:text-2xl font-fontin-regular hover:opacity-80">
                                     <?php echo esc_html($footer_link_links_title); ?>
                                 </a>
                         </li>

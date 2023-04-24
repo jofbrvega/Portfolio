@@ -1,4 +1,4 @@
-    <?php
+<?php
     /**
      * Add an option page for ACF options in the WP-admin
      */

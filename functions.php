@@ -1,5 +1,4 @@
 <?php
-
 require_once 'includes/acf.php';
 require_once 'includes/acf-blocks.php';
 
